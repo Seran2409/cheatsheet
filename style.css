@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+#header {
+  background-color: bisque;
+  display: flex;
+}
+
+.h1 {
+  text-align: center;
+  flex: 1;
+}
+
+.h1right {
+  text-align: right;
+  flex: 1;
+}
+.h1left {
+  flex: 1;
+}
+
+.github {
+  width: 140px;
+  height: auto;
+}
+
+#img-container1{
+    display: flex;
+    width: auto;
+}
+#img-container2{
+    display: flex;
+}
+
+.img{
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: auto;
+}
