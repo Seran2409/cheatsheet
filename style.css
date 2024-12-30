@@ -1,9 +1,20 @@
 body {
+  background-color: beige;
   font-family: "Courier New", Courier, monospace;
 }
 #header {
   background-color: bisque;
   display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  padding: 20px; 
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 1800px;
+  align-items: center;
 }
 
 .h1 {
@@ -14,6 +25,7 @@ body {
 .h1right {
   text-align: right;
   flex: 1;
+  align-self: flex-end;
 }
 .h1left {
   flex: 1;
@@ -24,17 +36,15 @@ body {
   height: auto;
 }
 
-#img-container1{
+
+#img-container{
     display: flex;
     width: auto;
-}
-#img-container2{
-    display: flex;
 }
 
 .img{
     padding: 20px;
-    margin: 20px;
+    margin: 60px;
     width: 300px;
     height: auto;
 }
